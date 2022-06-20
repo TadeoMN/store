@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:host {
+    margin: 6px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    --color-primary: #0e3160;
+    --color-title: #fff;
+    --primary-font: 'Kumbh Sans', sans-serif;
+    background-color: var(--color-primary);
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.title {
+    color: var(--color-title);
+    font-size: 2.4em;
+    text-align: center;
+    font-family: var(--primary-font);
+    background-color: var(--color-primary);
+
+    h3 {
+        margin: 0;
+    }
+}
+.image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-title);
+}
+.description {
+    background-color: var(--color-primary);
+    font-family: var(--primary-font);
+    color: var(--color-title);
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0;
+
+    p {
+        margin: 0;
+        padding: 4px 0;
+    }
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    margin: 0;
+}
+.button-cart {
+    margin: 5px auto;
+}
